@@ -1,0 +1,190 @@
+*,
+*::after
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 100vh;
+}
+.Grid-container{
+    justify-content: center;
+    display: grid;
+    grid-template-columns:repeat(10, 70px);
+    grid-template-rows: repeat(8, 70px);
+    grid-auto-rows: 200px;
+    grid-gap:5px;
+
+}
+.container-1{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+ background-color: rgb(113, 113, 113);
+ border-radius: 50px;
+ border-color: rgb(113, 113, 113);
+}
+.container-2{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: rgb(113, 113, 113);
+ border-radius: 50px;
+ border-color: rgb(113, 113, 113);
+}
+.container-3{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: rgb(113, 113, 113);
+ border-radius: 50px;
+ border-color: rgb(113, 113, 113);
+}
+.container-4{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: rgb(48, 126, 0);
+ border-radius: 50px;
+ border-color:  rgb(48, 126, 0);
+}
+.container-5{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: rgb(113, 113, 113);
+ border-radius: 50px;
+ border-color: rgb(113, 113, 113);
+}
+.container-6{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: rgb(113, 113, 113);
+ border-radius: 50px;
+ border-color: rgb(113, 113, 113);
+}
+.container-7{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: rgb(113, 113, 113);
+ border-radius: 50px;
+ border-color: rgb(113, 113, 113);
+}
+.container-8{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: rgb(48, 126, 0);
+    border-radius: 50px;
+    border-color:  rgb(48, 126, 0);
+}
+.container-9{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: rgb(113, 113, 113);
+ border-radius: 50px;
+ border-color: rgb(113, 113, 113);
+}
+.container-10{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: rgb(113, 113, 113);
+ border-radius: 50px;
+ border-color: rgb(113, 113, 113);
+}
+.container-11{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: rgb(113, 113, 113);
+ border-radius: 50px;
+ border-color: rgb(113, 113, 113);
+}
+.container-12{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: rgb(48, 126, 0);
+    border-radius: 50px;
+    border-color:  rgb(48, 126, 0);
+}
+.container-13{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background-color: rgb(78, 190, 9);
+    border-radius: 50px;
+    border-color:  rgb(78, 190, 9);
+    
+}
+.container-14{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background-color: rgb(113, 113, 113);
+ border-radius: 50px;
+ border-color: rgb(113, 113, 113);
+}
+.container-15{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background-color: rgb(78, 190, 9);
+    border-radius: 50px;
+    border-color:  rgb(78, 190, 9);
+}
+.container-16{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background-color: rgb(78, 190, 9);
+    border-radius: 50px;
+    border-color:  rgb(78, 190, 9);
+}
+.container-17{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    background-color: rgb(255, 162, 0);
+    border-radius: 50px;
+    border-color:rgb(255, 162, 0) ;
+}
+#Display-bar{
+    border: solid;
+    border-color:   rgb(12, 12, 12);
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 5px;
+    background-color: rgb(12, 12, 12); 
+    color: white;
+    font-size: 5rem
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
