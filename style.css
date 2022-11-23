@@ -187,4 +187,16 @@ body{
     color: white;
     font-size: 5rem
 }
+.container-1:hover, .container-2:hover, .container-3:hover, .container-5:hover, .container-6:hover, .container-7:hover, .container-9:hover, .container-10:hover, .container-11:hover, .container-14:hover{
+background-color: rgb(65, 64, 64);
+}
+.container-4:hover,.container-12:hover, .container-8:hover {
+    background-color: rgb(31, 77, 2);
+}
+.container-13:hover, .container-15:hover, .container-16:hover{
+    background-color:  rgb(52, 125, 7);
+}
+.container-17:hover{
+   background-color: rgb(209, 135, 7);
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
