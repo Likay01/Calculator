@@ -200,7 +200,8 @@ background-color: rgb(65, 64, 64);
    background-color: rgb(209, 135, 7);
 }
 button{
-font-size: 30px;
+    text-align: center;
+    font-size: 30px;
     color: black
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
