@@ -11,6 +11,9 @@ body{
     justify-content:center ;
     align-items: center;
     height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: center;
 }
 .Grid-container{
     justify-content: center;
@@ -19,7 +22,6 @@ body{
     grid-template-rows: repeat(8, 70px);
     grid-auto-rows: 200px;
     grid-gap:5px;
-    text-align: center;
 
 }
 .container-1{
