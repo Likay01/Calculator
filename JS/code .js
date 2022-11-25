@@ -52,4 +52,8 @@ function clr() {
     output.value = "";
 }
 
+output.addEventListener('click', (e)=>{
+    e.preventDefault();
+    
+})
 
