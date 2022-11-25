@@ -204,4 +204,13 @@ button{
     color: black;
     text-align: center;
 }
+@media screen and (min-width : 350px){
+    button{
+        text-align: center
+    }
+    
+
+    
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
