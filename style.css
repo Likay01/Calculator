@@ -19,6 +19,7 @@ body{
     grid-template-rows: repeat(8, 70px);
     grid-auto-rows: 200px;
     grid-gap:5px;
+    text-align: center;
 
 }
 .container-1{
@@ -200,7 +201,6 @@ background-color: rgb(65, 64, 64);
    background-color: rgb(209, 135, 7);
 }
 button{
-    text-align: center;
     font-size: 30px;
     color: black
 }
