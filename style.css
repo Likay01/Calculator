@@ -209,13 +209,15 @@ button{
 @media only screen and (max-width : 720px){
     .Grid-container{
         width: 100%;
-        text-align: center
     }
+    
     body{
         overflow-y : hidden;
         overflow-x: hidden
     }
-    
+    .container-1, .container-2, .container-3, .container-5, .container-6, .container-7, .container-9, .container-10, .container-11, .container-14, .contain,.container-12, .container-8, .container-13, .container-15, .container-16,.container-17{
+        text-align: center
+    }
 
     
 }
