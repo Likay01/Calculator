@@ -20,6 +20,7 @@ body{
     grid-template-rows: repeat(8, 70px);
     grid-auto-rows: 200px;
     grid-gap:5px;
+    width: 100%;
 
 }
 .container-1{
@@ -205,13 +206,14 @@ button{
     color: black;
     text-align: center;
 }
-@media screen and (min-width : 720px){
+@media only screen and (max-width : 720px){
     .Grid-container{
         width: 100%;
         text-align: center
     }
     body{
         overflow-y : hidden;
+        overflow-x: hidden
     }
     
 
