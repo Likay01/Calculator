@@ -205,7 +205,7 @@ button{
     color: black;
     text-align: center;
 }
-@media screen and (min-width : 350px){
+@media screen and (min-width : 720px){
     .Grid-container{
         width: 100%;
         text-align: center
