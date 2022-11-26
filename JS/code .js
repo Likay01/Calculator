@@ -1,41 +1,35 @@
 let output = document.getElementById("Display-bar");
-let allowComa = true;
-
-
+let decimalStatus = true;
 // appends button values to input field
-function display(anyVal) {
-    output.value = output.value + anyVal;
+function display(allSum) {
+    output.value = output.value + allSum;
 }
 
-function displayMin(anyVal) {
-    output.value = output.value + anyVal;
-    allowComa = true;
+function displayMin(allSum) {
+    output.value = output.value + allSum;
+    decimalStatus = true;  
+}
+function displayMult(allSum) {
+    output.value = output.value + allSum;
     
 }
-function displayMult(anyVal) {
-    output.value = output.value + anyVal;
-    allowComa = true;
+function displayDiv(allSum) {
+    output.value = output.value + allSum;
+    decimalStatus = true;
     
 }
-function displayDiv(anyVal) {
-    output.value = output.value + anyVal;
-    allowComa = true;
-    
-}
-function displayPlus(anyVal) {
-    output.value = output.value + anyVal;
-    allowComa = true;
+function displayPlus(allSum) {
+    output.value = output.value + allSum;
+    decimalStatus = true;
     
 }
 
-function displayComa(anyVal) {
-    if (allowComa === true) {
-        output.value = output.value + anyVal;
-        allowComa = false;
+function displayComa(allSum) {
+    if (decimalStatus === true) {
+        output.value = output.value + allSum;
+        decimalStatus = false;
     }
 }
-
-
 // evaluates calculate-able strings
 function equal() {
     try {
@@ -50,10 +44,7 @@ function equal() {
 // to clear 
 function clr() {
     output.value = "";
+    output.value = output.value + allSum;
+    decimalStatus = true;
 }
-
-output.addEventListener('click', (e)=>{
-    e.preventDefault();
-    
-})
 
