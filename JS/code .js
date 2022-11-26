@@ -11,7 +11,7 @@ function displayMin(allSum) {
 }
 function displayMult(allSum) {
     output.value = output.value + allSum;
-    
+    decimalStatus = true; 
 }
 function displayDiv(allSum) {
     output.value = output.value + allSum;
